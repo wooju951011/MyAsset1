@@ -14,6 +14,7 @@
 		2A71729E297943AD00B8ABA5 /* MyAsset1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A71729D297943AD00B8ABA5 /* MyAsset1Tests.swift */; };
 		2A7172A8297943AD00B8ABA5 /* MyAsset1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7172A7297943AD00B8ABA5 /* MyAsset1UITests.swift */; };
 		2A7172AA297943AD00B8ABA5 /* MyAsset1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7172A9297943AD00B8ABA5 /* MyAsset1UITestsLaunchTests.swift */; };
+		2A7172ED298257F200B8ABA5 /* NavigationBarWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7172EC298257F200B8ABA5 /* NavigationBarWithButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2A7172A3297943AD00B8ABA5 /* MyAsset1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAsset1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7172A7297943AD00B8ABA5 /* MyAsset1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAsset1UITests.swift; sourceTree = "<group>"; };
 		2A7172A9297943AD00B8ABA5 /* MyAsset1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAsset1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A7172EC298257F200B8ABA5 /* NavigationBarWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWithButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				2A71728C297943AC00B8ABA5 /* MyAsset1App.swift */,
 				2A71728E297943AC00B8ABA5 /* ContentView.swift */,
+				2A7172EC298257F200B8ABA5 /* NavigationBarWithButton.swift */,
 				2A717290297943AC00B8ABA5 /* Assets.xcassets */,
 				2A717292297943AC00B8ABA5 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7172ED298257F200B8ABA5 /* NavigationBarWithButton.swift in Sources */,
 				2A71728F297943AC00B8ABA5 /* ContentView.swift in Sources */,
 				2A71728D297943AC00B8ABA5 /* MyAsset1App.swift in Sources */,
 			);
@@ -425,6 +429,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +459,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
